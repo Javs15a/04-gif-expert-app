@@ -9,7 +9,24 @@ exports[`Pruebas de <GifExperApp/> debe de cargar el componente correctamente 1`
     setCategories={[Function]}
   />
   <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Pruebas de <GifExperApp/> debe de mostrar una lista de categorias 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
   <ol>
+    <GifGrid
+      category="One punch"
+      key="One punch"
+    />
     <GifGrid
       category="Dragon ball"
       key="Dragon ball"
